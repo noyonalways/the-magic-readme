@@ -1,0 +1,31 @@
+{
+  "name": "the-magic-readme",
+  "version": "1.0.0",
+  "description": "A CLI tool to generate README files magically",
+  "main": "index.js",
+  "bin": {
+    "the-magic-readme": "index.js"
+  },
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "README",
+    "CLI",
+    "generator"
+  ],
+  "author": "Noyon Rahman",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noyonalways/the-magic-readme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/noyonalways/the-magic-readme/issues"
+  },
+  "homepage": "https://github.com/noyonalways/the-magic-readme",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "inquirer": "^8.0.0"
+  }
+}
