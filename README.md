@@ -16,7 +16,7 @@
     </h3>
 </p>
 
-![GitHub top language](https://img.shields.io/github/languages/top/noyonalways/typescript-technocrat)
+![GitHub top language](https://img.shields.io/github/languages/top/noyonalways/the-magic-readme)
 ![NPM Version](https://img.shields.io/npm/v/the-magic-readme?style=flat)
 
 A CLI tool to generate README files magically
@@ -28,6 +28,8 @@ A CLI tool to generate README files magically
 ```sh
 npm install -g the-magic-readme
 ```
+
+To Generate Readme file
 
 ```sh
 the-magic-readme

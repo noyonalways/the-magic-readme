@@ -7,7 +7,7 @@ const program = new Command();
 const { generateREADME } = require("./utils");
 
 program
-  .version("1.0.0")
+  .version("1.0.1")
   .description("A CLI tool to generate README files magically")
   .parse(process.argv);
 
@@ -39,7 +39,7 @@ async function main() {
   const readmeContent = generateREADME({ ...modifiedInput });
 
   // Write README content to file asynchronously
-  fs.writeFile("test.md", readmeContent, (err) => {
+  fs.writeFile("README.md", readmeContent, (err) => {
     if (err) {
       console.error("Error writing file:", err);
     } else {
