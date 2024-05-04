@@ -21,7 +21,22 @@
 
 A CLI tool to generate README files magically
 
-## Table of Contents
+---
+
+**The Magic README**
+
+The Magic README is a command-line tool that helps you generate professional README files for your GitHub repositories effortlessly. With customizable templates and default values for repository details, it streamlines the process of creating README files, saving you time and ensuring consistency across your projects.
+
+Key Features:
+
+- Interactive CLI for easy input of repository details
+- Customizable README templates
+- Default values for properties like logo, repository URL, author name, and more
+- Generates Markdown-formatted README files ready for use on GitHub
+
+Get started with The Magic README and level up your project documentation game!
+
+---
 
 ### Installation
 

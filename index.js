@@ -7,7 +7,7 @@ const program = new Command();
 const { generateREADME } = require("./utils");
 
 program
-  .version("1.0.1")
+  .version("1.0.2")
   .description("A CLI tool to generate README files magically")
   .parse(process.argv);
 
