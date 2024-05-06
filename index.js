@@ -7,7 +7,7 @@ const program = new Command();
 const { generateREADME } = require("./utils");
 
 program
-  .version("1.0.3")
+  .version("1.0.5")
   .description("A CLI tool to generate README files magically")
   .parse(process.argv);
 
@@ -50,7 +50,9 @@ async function main() {
     if (err) {
       console.error("Error writing file:", err);
     } else {
-      console.log("README.md has been created successfully! ✅");
+      console.log(
+        `${modifiedInput.fileName} has been created successfully! ✅`
+      );
     }
   });
 }
