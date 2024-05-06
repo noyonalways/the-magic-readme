@@ -7,7 +7,7 @@ const program = new Command();
 const { generateREADME } = require("./utils");
 
 program
-  .version("1.0.2")
+  .version("1.0.3")
   .description("A CLI tool to generate README files magically")
   .parse(process.argv);
 
@@ -24,6 +24,11 @@ async function main() {
       name: "linkedin",
       message: "Enter your LinkedIn username:",
     },
+    {
+      type: "input",
+      name: "fileName",
+      message: "Enter the file name you want:",
+    },
   ]);
 
   const modifiedInput = {
@@ -33,13 +38,15 @@ async function main() {
     logo: userInput.logo || "https://i.ibb.co/c64q254/noyon-logo-dark.png",
     email: userInput.email || "noyonrahman2003@gmail.com",
     linkedin: userInput.linkedin || "noyonalways",
+    fileName:
+      userInput.fileName.length > 0 ? userInput.fileName + ".md" : "README.md",
   };
 
   // Generate README content
   const readmeContent = generateREADME({ ...modifiedInput });
 
   // Write README content to file asynchronously
-  fs.writeFile("README.md", readmeContent, (err) => {
+  fs.writeFile(modifiedInput.fileName, readmeContent, (err) => {
     if (err) {
       console.error("Error writing file:", err);
     } else {
