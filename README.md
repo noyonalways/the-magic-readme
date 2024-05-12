@@ -18,6 +18,7 @@
 
 ![GitHub top language](https://img.shields.io/github/languages/top/noyonalways/the-magic-readme)
 ![NPM Version](https://img.shields.io/npm/v/the-magic-readme?style=flat)
+![NPM Downloads](https://img.shields.io/npm/d18m/the-magic-readme?style=flat)
 
 A CLI tool to generate README files magically
 
