@@ -1,3 +1,5 @@
+<div align="center">
+
 [![Youtube][youtube-shield]][youtube-url]
 [![Facebook][facebook-shield]][facebook-url]
 [![Facebook Page][facebook-shield]][facebook-group-url]
@@ -5,8 +7,11 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![VS Code Theme][vscode-shield]][vscode-theme-url]
 
+</div>
+
 <!-- PROJECT LOGO -->
 <br />
+<div align="center">
 <p align="center">
     <img src="https://i.ibb.co/c64q254/noyon-logo-dark.png" alt="Logo" width="80" height="80" />
     <h3 align="center">
@@ -19,6 +24,9 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/noyonalways/the-magic-readme)
 ![NPM Version](https://img.shields.io/npm/v/the-magic-readme?style=flat)
 ![NPM Downloads](https://img.shields.io/npm/d18m/the-magic-readme?style=flat)
+[![OverView Video][overview-video-shield]][overview-video-url]
+
+</div>
 
 A CLI tool to generate README files magically
 
@@ -69,3 +77,5 @@ the-magic-readme
 [linkedin-url]: https://linkedin.com/in/noyonalways
 [vscode-shield]: https://img.shields.io/badge/-VS%20Code%20Theme-black.svg?style=round-square&logo=visualstudiocode&colorB=555
 [vscode-theme-url]: https://marketplace.visualstudio.com/items?itemName=noyonalways.codevibe-themes
+[overview-video-shield]: https://img.shields.io/badge/-Overview_Video-black.svg?style=round-square&logo=youtube&color=555&logoColor=c4302b
+[overview-video-url]: https://youtu.be/mxbgpg16ImY?si=eFe1-HRf0p-tH8hQ
