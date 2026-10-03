@@ -1,13 +1,19 @@
 {
   "name": "the-magic-readme",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "A CLI tool to generate README files magically",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "bin": {
-    "the-magic-readme": "index.js"
+    "the-magic-readme": "dist/bin/cli.js"
   },
   "scripts": {
-    "dev": "node index.js"
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
+    "build": "npm run clean && tsc",
+    "dev": "npm run build && node dist/bin/cli.js",
+    "start": "node dist/bin/cli.js",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "README",
@@ -20,9 +26,9 @@
   "author": "Noyon Rahman",
   "license": "MIT",
   "files": [
-    "LICENSE",
-    "templates/",
-    "utils/"
+    "LICENSE.md",
+    "dist/",
+    "templates/"
   ],
   "repository": {
     "type": "git",
@@ -35,5 +41,13 @@
   "dependencies": {
     "commander": "^12.0.0",
     "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.17.0",
+    "typescript": "~5.8.3"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }

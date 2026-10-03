@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "classic",
+    "name": "Classic",
+    "description": "Bold centered hero, badges, and a clean contact block.",
+    "category": "classic",
+    "file": "classic.md"
+  },
+  {
+    "slug": "classic-stats",
+    "name": "Classic Stats",
+    "description": "Social proof style README with stars, forks, and quick links.",
+    "category": "classic",
+    "file": "classic-stats.md"
+  },
+  {
+    "slug": "minimal",
+    "name": "Minimal",
+    "description": "Ultra-clean one-pager for small tools and scripts.",
+    "category": "minimal",
+    "file": "minimal.md"
+  },
+  {
+    "slug": "modern",
+    "name": "Modern",
+    "description": "Feature-rich open-source README with TOC and structure.",
+    "category": "modern",
+    "file": "modern.md"
+  },
+  {
+    "slug": "production",
+    "name": "Production",
+    "description": "Ops-ready docs: config, scripts, security, troubleshooting.",
+    "category": "production",
+    "file": "production.md"
+  },
+  {
+    "slug": "cli",
+    "name": "CLI Tool",
+    "description": "Terminal-first template for npm CLIs and developer tools.",
+    "category": "useful",
+    "file": "cli.md"
+  },
+  {
+    "slug": "library",
+    "name": "Library / SDK",
+    "description": "Package README with install, API table, and examples.",
+    "category": "useful",
+    "file": "library.md"
+  },
+  {
+    "slug": "saas",
+    "name": "SaaS Product",
+    "description": "Product-style README for startups and web apps.",
+    "category": "useful",
+    "file": "saas.md"
+  },
+  {
+    "slug": "opensource",
+    "name": "Open Source",
+    "description": "Contributor-friendly community README with mission and COC.",
+    "category": "useful",
+    "file": "opensource.md"
+  },
+  {
+    "slug": "supabase",
+    "name": "Supabase",
+    "description": "Auth, RLS, storage, and edge-function oriented README.",
+    "category": "useful",
+    "file": "supabase.md"
+  }
+]

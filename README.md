@@ -13,7 +13,7 @@
 <br />
 <div align="center">
 <p align="center">
-    <img src="https://i.ibb.co/c64q254/noyon-logo-dark.png" alt="Logo" width="80" height="80" />
+    <img src="https://cdn.noyonrahman.com/uploads/logos/noyon-rahman-logo.png" alt="Logo" width="80" height="80" />
     <h3 align="center">
         <a href="https://github.com" target="_blank" >
             The Magic Readme
@@ -61,8 +61,8 @@ the-magic-readme
 
 ## Contact
 
-- Email: [noyonrahman2003@gmail.com](mailto:noyonrahman2003+github@gmail.com)
-- LinkedIn: [Noyon Rahman](https://linkedin.com/in/noyonalways)
+- Website: [noyonrahman.com](https://noyonrahman.com)
+- Email: [dev@noyonrahman.com](mailto:dev@noyonrahman.com)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
