@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!--
+    The Magic README — app logo
+    A six-armed asterisk in the CLI's cyan→blue splash gradient
+    (xterm 51 → 33, left→right — the same sweep splash.ts paints
+    across the wordmark). The asterisk is the whole story in one
+    glyph: Markdown syntax (READMEs are built from *), a shell
+    wildcard (this is a CLI), and a sparkle (the magic).
+  -->
+  <defs>
+    <linearGradient id="gMark" gradientUnits="userSpaceOnUse" x1="16" y1="32" x2="48" y2="32">
+      <stop offset="0" stop-color="#00ffff"/>
+      <stop offset="1" stop-color="#0087ff"/>
+    </linearGradient>
+    <linearGradient id="gEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00ffff"/>
+      <stop offset="1" stop-color="#0087ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Terminal tile: invisible on the site's dark background, a badge on light ones -->
+  <rect width="64" height="64" rx="14" fill="#0a0a0f"/>
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="13.25" fill="none" stroke="url(#gEdge)" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- The asterisk (six arms, rounded ends) -->
+  <g stroke="url(#gMark)" stroke-width="6" stroke-linecap="round">
+    <line x1="32" y1="15" x2="32" y2="49"/>
+    <line x1="17.28" y1="23.5" x2="46.72" y2="40.5"/>
+    <line x1="17.28" y1="40.5" x2="46.72" y2="23.5"/>
+  </g>
+</svg>

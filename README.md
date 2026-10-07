@@ -13,9 +13,9 @@
 <br />
 <div align="center">
 <p align="center">
-    <img src="https://cdn.noyonrahman.com/uploads/logos/noyon-rahman-logo.png" alt="Logo" width="80" height="80" />
+    <img src="https://raw.githubusercontent.com/noyonalways/the-magic-readme/main/assets/logo.svg" alt="Logo" width="80" height="80" />
     <h3 align="center">
-        <a href="https://github.com" target="_blank" >
+        <a href="https://magic-readme.noyonrahman.com" target="_blank" >
             The Magic Readme
         </a>
     </h3>
